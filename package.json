@@ -5,7 +5,7 @@
   "main": "base.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ct-desarrollo/eslint-config.git"
+    "url": "git+ssh://git@github.com/ct-desarrollo/eslint-config.git"
   },
   "license": "MIT",
   "scripts": {
@@ -14,7 +14,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{md,css,scss,yaml,yml}": [
+    "*.{md,css,scss}": [
       "prettier --check"
     ],
     "*.js": [
@@ -53,5 +53,11 @@
     "typescript": {
       "optional": true
     }
-  }
+  },
+  "devDependencies": {},
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ct-desarrollo/eslint-config/issues"
+  },
+  "homepage": "https://github.com/ct-desarrollo/eslint-config#readme"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@ctdesarrollo/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CT Desarrollo Eslint configurations",
   "main": "base.js",
   "repository": {
@@ -45,7 +45,7 @@
     "prettier": "^3.3.3",
     "typescript": "^5.6.3"
   },
-  "packageManager": "pnpm@9.1.0",
+  "packageManager": "yarn@4.5.0",
   "peerDependencies": {
     "typescript": "^5.1.3"
   },
@@ -53,16 +53,5 @@
     "typescript": {
       "optional": true
     }
-  },
-  "devDependencies": {},
-  "author": "François López <francois.lopez@funiber.org>",
-  "bugs": {
-    "url": "https://github.com/ct-desarrollo/eslint-config/issues"
-  },
-  "homepage": "https://github.com/ct-desarrollo/eslint-config#readme",
-  "keywords": [
-    "eslint",
-    "funiber",
-    "ctdesarrollo"
-  ]
+  }
 }

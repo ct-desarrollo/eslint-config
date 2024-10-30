@@ -55,9 +55,14 @@
     }
   },
   "devDependencies": {},
-  "author": "",
+  "author": "François López <francois.lopez@funiber.org>",
   "bugs": {
     "url": "https://github.com/ct-desarrollo/eslint-config/issues"
   },
-  "homepage": "https://github.com/ct-desarrollo/eslint-config#readme"
+  "homepage": "https://github.com/ct-desarrollo/eslint-config#readme",
+  "keywords": [
+    "eslint",
+    "funiber",
+    "ctdesarrollo"
+  ]
 }

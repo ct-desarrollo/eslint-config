@@ -1,6 +1,6 @@
 module.exports = {
   parserOptions: {
-    ecmaVersion: 2022,
+    ecmaVersion: 2020,
   },
   extends: [
     'airbnb-base',
@@ -18,10 +18,7 @@ module.exports = {
     'no-return-await': 'error',
     'object-shorthand': ['error', 'always', { avoidExplicitReturnArrows: true }],
     'class-methods-use-this': 'off',
-    'max-classes-per-file': 'warn',
     'default-param-last': 'warn',
     'no-template-curly-in-string': 'warn',
-    'no-unused-vars': 'warn',
-    eqeqeq: 'error',
   },
 };
